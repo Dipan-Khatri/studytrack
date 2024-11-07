@@ -35,7 +35,7 @@ A simple React application designed to help users track their study topics, incl
 
 Here’s a preview of the StudyTrack app:
 
-![StudyTrack Screenshot](./assets/screenshot.png)
+![StudyTrack Screenshot](src/assets/screenshot.png)
 
 
 ---
