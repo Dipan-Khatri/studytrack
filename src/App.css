@@ -1,0 +1,114 @@
+/* App.css */
+
+/* Body styling for a centered layout and background color */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f4f8;
+  min-height: 100vh;
+  margin: 0;
+}
+
+/* Main container styling */
+.container {
+  width: 80%;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Header styling */
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  font-size: 2.2em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Input fields and button styling */
+input[type="text"] {
+  padding: 8px;
+  margin-right: 5px;
+  border: 1px solid #dfe6e9;
+  border-radius: 4px;
+  width: calc(30% - 10px);
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+/* Topics list section */
+h2 {
+  color: #2c3e50;
+  font-size: 1.5em;
+  margin-top: 20px;
+  border-bottom: 2px solid #bdc3c7;
+  padding-bottom: 8px;
+}
+
+/* Each topic item styling */
+.topic-item {
+  background-color: #ecf0f1;
+  margin-bottom: 15px;
+  padding: 15px;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Topic title and status */
+.topic-item h3 {
+  font-size: 1.2em;
+  color: #34495e;
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.topic-item p {
+  margin: 5px 0;
+  color: #7f8c8d;
+}
+
+.topic-item a {
+  color: #3498db;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.topic-item a:hover {
+  color: #2980b9;
+}
+
+/* Status and button styling inside topic items */
+.status {
+  font-weight: bold;
+  color: #e67e22;
+}
+
+button.status-button {
+  background-color: #27ae60;
+  padding: 6px 12px;
+  border-radius: 4px;
+  margin-top: 10px;
+  font-size: 0.9em;
+}
+
+button.status-button:hover {
+  background-color: #219150;
+}
